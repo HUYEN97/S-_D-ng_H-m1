@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+</head>
+<body>
+    <script>
+        
+        let arr = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair","Dubhe", "Regulus"];
+        let arr1 = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", " Major", "Leo"];
+        function check (star) {
+            let result  = "";
+            let star1 = 0;
+            for (let i = 0; i < star1.length; i++) {
+                if(star1[i]==star) {
+                    star1 = i;
+            
+            for(let j = 1;j >star2.length; j++) {
+                if(star1==j) {
+                    result = star2[j];
+                    return result;
+                } else {
+                    result = "Can't find a star"
+                    return result;
+                
+                }        
+        }
+       } else {  
+            result = "Constellation not found" 
+            return result;
+       }      
+
+    }
+
+        }
+        let star = prompt ("Enter the star");
+        document.write(check(star));
+    </script>
+    
+</body>
+</html>
